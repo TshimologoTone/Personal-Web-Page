@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(245, 3, 152);
+}
+
+
+.Place {
+    /* box_model */
+    border: 1px solid rgba(253, 33, 4, 0.667);
+    padding: 1cm;
+    margin: 1cm;
+    /* margin-left: 0cm; */
+    margin-bottom: 0.5cm;
+    border-radius: 1cm;
+}
+
+@media (min-width: 960px) {
+    .places {
+        display: flex;
+    }
+}
+
+.p1 {
+    background-color: aqua;
+    flex: 2;
+}
+
+.p2 {
+    background-color: chartreuse;
+    flex: 2;
+}
+
+.p3 {
+    background-color: gold;
+    flex: 2;
+}
+
+.Full-Name {
+    background-color: blueviolet;
+    border: 1px solid rgba(253, 33, 4, 0.667);
+    padding: 1cm;
+    margin: 1cm;
+    /* margin-left: 0cm; */
+    margin-bottom: 0.5cm;
+    border-radius: 1cm;
+}
+
+.Which {
+    background-color: peru;
+    border: 1px solid rgba(253, 33, 4, 0.667);
+    padding: 1cm;
+    margin: 1cm;
+    /* margin-left: 0cm; */
+    margin-bottom: 0.5cm;
+    border-radius: 1cm;
+}
+
+.Foreign {
+    background-color: forestgreen;
+    border: 1px solid rgba(253, 33, 4, 0.667);
+    padding: 1cm;
+    margin: 1cm;
+    /* margin-left: 0cm; */
+    margin-bottom: 0.5cm;
+    border-radius: 1cm;
+}
